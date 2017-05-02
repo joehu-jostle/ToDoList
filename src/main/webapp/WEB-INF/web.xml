@@ -10,12 +10,22 @@
     <servlet-name>greetServlet</servlet-name>
     <servlet-class>org.gwtproject.tutorital.server.GreetingServiceImpl</servlet-class>
   </servlet>
-  
+
   <servlet-mapping>
     <servlet-name>greetServlet</servlet-name>
     <url-pattern>/todolist/greet</url-pattern>
   </servlet-mapping>
-  
+
+  <servlet>
+    <servlet-name>goodbyeServlet</servlet-name>
+    <servlet-class>org.gwtproject.tutorital.server.GoodbyeServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>goodbyeServlet</servlet-name>
+    <url-pattern>/todolist/sayGoodbye</url-pattern>
+  </servlet-mapping>
+
   <!-- Default page to serve -->
   <welcome-file-list>
     <welcome-file>TodoList.html</welcome-file>

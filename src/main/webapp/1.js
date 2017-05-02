@@ -22,7 +22,15 @@ function mount() {
     return Promise.resolve().then(function() {
         var mainPanel = document.getElementById('mainPanel');
         mainPanel.innerHTML = "";
-        document.getElementById('mainPanel').innerHTML = '<span>Hello World</span>';
+        // document.getElementById('mainPanel').innerHTML = '<span>Hello World</span>';
+        var button = document.createElement('button');
+        button.innerHTML = "Say goodbye";
+        button.addEventListener("click", function(){
+            $.post("todolist/sayGoodbye").done(function(data) {
+                alert(data);
+            });
+        });
+        mainPanel.appendChild(button);
         console.log("cool mounted");
     });
 }
