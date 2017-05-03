@@ -10,7 +10,7 @@ start();
 
 // This is a "loading function"
 function loadReactApp() {
-    return System.import("./react/reactwrapper.js");
+    return System.import("./react/reactwrapper.jsx");
 }
 
 // This is an "activity function"
