@@ -36,6 +36,16 @@
     <url-pattern>/todolist/sayGoodbye</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>scaffoldServlet</servlet-name>
+    <servlet-class>org.gwtproject.scaffold.ScaffoldServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>scaffoldServlet</servlet-name>
+    <url-pattern>/scaffold/scaffold</url-pattern>
+  </servlet-mapping>
+
   <!-- Default page to serve -->
   <welcome-file-list>
     <welcome-file>TodoList.html</welcome-file>
