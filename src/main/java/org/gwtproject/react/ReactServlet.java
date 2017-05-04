@@ -1,4 +1,4 @@
-package org.gwtproject.tutorital.server;
+package org.gwtproject.react;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -10,7 +10,7 @@ import java.io.PrintWriter;
 /**
  * Created by Joe on 5/1/2017.
  */
-public class GoodbyeServlet extends HttpServlet {
+public class ReactServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // Set response content type
@@ -18,6 +18,6 @@ public class GoodbyeServlet extends HttpServlet {
 
         // Actual logic goes here.
         PrintWriter out = resp.getWriter();
-        out.println("<h1> Goodbye world </h1>");
+        out.println("Reactjs is an awesome framework.");
     }
 }

@@ -27,13 +27,13 @@
   </servlet-mapping>
 
   <servlet>
-    <servlet-name>goodbyeServlet</servlet-name>
-    <servlet-class>org.gwtproject.tutorital.server.GoodbyeServlet</servlet-class>
+    <servlet-name>reactServlet</servlet-name>
+    <servlet-class>org.gwtproject.react.ReactServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
-    <servlet-name>goodbyeServlet</servlet-name>
-    <url-pattern>/todolist/sayGoodbye</url-pattern>
+    <servlet-name>reactServlet</servlet-name>
+    <url-pattern>/react/react</url-pattern>
   </servlet-mapping>
 
   <servlet>
