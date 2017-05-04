@@ -27,7 +27,7 @@ function loadGwtApp() {
 
 // This is an "activity function"
 function isGwtAppActive() {
-    return window.location.hash.startsWith("#/gwt");
+    return window.location.hash.endsWith("#/gwt1");
 
 }
 
@@ -38,6 +38,6 @@ function loadGwt2App() {
 
 // This is an "activity function"
 function isGwt2AppActive() {
-    return window.location.hash.startsWith("#/2gwt");
+    return window.location.hash.endsWith("#/gwt2");
 
 }
