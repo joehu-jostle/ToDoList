@@ -15,10 +15,10 @@ export function mount() {
         if (noCacheJSScriptElement === null) {
             var newScript = document.createElement('script');
             newScript.id = "nocachejs-script";
-            newScript.src = 'todolist/todolist.nocache.js';
+            newScript.src = 'dosomething/dosomething.nocache.js';
             document.head.appendChild(newScript);
         }
-        console.log("joe boostrapped");
+        console.log("gwt2 mounted");
     });
 }
 
@@ -44,7 +44,7 @@ export function unmount() {
         }
         var mainPanel = document.getElementById('mainPanel');
         mainPanel.innerHTML = "";
-        var iframe = document.getElementById('todolist');
+        var iframe = document.getElementById('dosomething');
         document.body.removeChild(iframe);
         delete window.__gwt_activeModules;
         delete window.__gwt_getMetaProperty;

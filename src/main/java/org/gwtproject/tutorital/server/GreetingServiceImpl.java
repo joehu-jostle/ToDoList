@@ -1,7 +1,7 @@
 package org.gwtproject.tutorital.server;
 
 import org.gwtproject.tutorital.client.GreetingService;
-import org.gwtproject.tutorital.shared.FieldVerifier;
+import org.gwtproject.shared.FieldVerifier;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 /**

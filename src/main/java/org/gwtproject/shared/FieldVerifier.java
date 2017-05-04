@@ -1,4 +1,4 @@
-package org.gwtproject.tutorital.shared;
+package org.gwtproject.shared;
 
 /**
  * <p>

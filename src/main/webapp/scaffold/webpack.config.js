@@ -6,7 +6,8 @@ module.exports = {
     entry: {
         'scaffold': './scaffold.js',
         'react.app': './react/reactwrapper.jsx',
-        'gwt.app': './gwt/gwtwrapper.js'
+        'gwt.app': './gwt/gwtwrapper.js',
+        'gwt2.app': './gwt2/gwt2wrapper.js'
     },
     output: {
         path: path.resolve(__dirname, './'),
