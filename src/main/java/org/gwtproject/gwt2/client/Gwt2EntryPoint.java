@@ -4,6 +4,7 @@ import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.Button;
+import com.google.gwt.user.client.ui.HTML;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
 
@@ -28,7 +29,7 @@ public class Gwt2EntryPoint implements EntryPoint {
 
             @Override
             public void onSuccess(String s) {
-                Label response = new Label(s);
+                HTML response = new HTML(s);
                 rootPanel.add(response);
             }
         }));
