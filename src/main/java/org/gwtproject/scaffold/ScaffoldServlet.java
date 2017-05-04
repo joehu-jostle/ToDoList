@@ -18,6 +18,6 @@ public class ScaffoldServlet extends HttpServlet {
 
         // Actual logic goes here.
         PrintWriter out = resp.getWriter();
-        out.println("<h1> Welcome to the hybrid app.  This message was obtained from a HttpServlet that's not tied to GWT</h1>");
+        out.println("<b> Welcome to the hybrid app.  This message was obtained from a HttpServlet that's not tied to GWT</b>");
     }
 }
