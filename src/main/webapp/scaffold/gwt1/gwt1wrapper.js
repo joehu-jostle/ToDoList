@@ -42,6 +42,16 @@ export function unmount() {
                 break;
             }
         }
+
+        var styleSheetList = headElement.getElementsByTagName('link');
+        var styleSheet;
+        for (var j = 0; j < styleSheetList.length; j++) {
+            styleSheet = styleSheetList[j];
+            if (styleSheet.href !== null && styleSheet.href.endsWith("clean.css")) {
+                headElement.removeChild(styleSheet);
+                break;
+            }
+        }
         var mainPanel = document.getElementById('mainPanel');
         mainPanel.innerHTML = "";
         var iframe = document.getElementById('gwt1app');
