@@ -1,6 +1,6 @@
-package org.gwtproject.tutorital.server;
+package org.gwtproject.gwt1.server;
 
-import org.gwtproject.tutorital.client.GreetingService;
+import org.gwtproject.gwt1.client.Gwt1Service;
 import org.gwtproject.shared.FieldVerifier;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
@@ -8,8 +8,8 @@ import com.google.gwt.user.server.rpc.RemoteServiceServlet;
  * The server-side implementation of the RPC service.
  */
 @SuppressWarnings("serial")
-public class GreetingServiceImpl extends RemoteServiceServlet implements
-        GreetingService {
+public class Gwt1ServiceImpl extends RemoteServiceServlet implements
+        Gwt1Service {
 
     public String greetServer(String input) throws IllegalArgumentException {
         // Verify that the input is valid.

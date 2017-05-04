@@ -15,7 +15,7 @@ export function mount() {
         if (noCacheJSScriptElement === null) {
             var newScript = document.createElement('script');
             newScript.id = "nocachejs-script";
-            newScript.src = 'dosomething/dosomething.nocache.js';
+            newScript.src = 'gwt2app/gwt2app.nocache.js';
             document.head.appendChild(newScript);
         }
         console.log("gwt2 mounted");
@@ -44,7 +44,7 @@ export function unmount() {
         }
         var mainPanel = document.getElementById('mainPanel');
         mainPanel.innerHTML = "";
-        var iframe = document.getElementById('dosomething');
+        var iframe = document.getElementById('gwt2app');
         document.body.removeChild(iframe);
         delete window.__gwt_activeModules;
         delete window.__gwt_getMetaProperty;

@@ -1,4 +1,4 @@
-package org.gwtproject.dosomething.client;
+package org.gwtproject.gwt2.client;
 
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
@@ -10,8 +10,8 @@ import com.google.gwt.user.client.ui.RootPanel;
 /**
  * Created by Joe on 5/3/2017.
  */
-public class DoSomething implements EntryPoint {
-    private final SomeServiceAsync someService = GWT.create(SomeService.class);
+public class Gwt2EntryPoint implements EntryPoint {
+    private final Gwt2ServiceAsync someService = GWT.create(Gwt2Service.class);
 
     @Override
     public void onModuleLoad() {

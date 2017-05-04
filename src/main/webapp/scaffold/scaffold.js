@@ -22,7 +22,7 @@ function isReactAppActive() {
 
 // This is a "loading function"
 function loadGwtApp() {
-    return System.import("./gwt/gwtwrapper.js");
+    return System.import("./gwt1/gwt1wrapper.js");
 }
 
 // This is an "activity function"

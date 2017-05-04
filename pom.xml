@@ -4,11 +4,11 @@
 
   <!-- POM file generated with GWT webAppCreator -->
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.gwtproject.tutorital</groupId>
-  <artifactId>TodoList</artifactId>
+  <groupId>org.gwtproject.poc</groupId>
+  <artifactId>Scaffold</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>org.gwtproject.tutorital.TodoList</name>
+  <name>org.gwtproject.poc.Scaffold</name>
 
   <properties>
 

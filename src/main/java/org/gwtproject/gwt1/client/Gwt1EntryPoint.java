@@ -1,4 +1,4 @@
-package org.gwtproject.tutorital.client;
+package org.gwtproject.gwt1.client;
 
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
@@ -10,7 +10,7 @@ import com.google.gwt.user.client.ui.RootPanel;
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
  */
-public class TodoList implements EntryPoint {
+public class Gwt1EntryPoint implements EntryPoint {
     /**
      * The message displayed to the user when the server cannot be reached or
      * returns an error.
@@ -22,7 +22,7 @@ public class TodoList implements EntryPoint {
     /**
      * Create a remote service proxy to talk to the server-side Greeting service.
      */
-    private final GreetingServiceAsync greetingService = GWT.create(GreetingService.class);
+    private final Gwt1ServiceAsync greetingService = GWT.create(Gwt1Service.class);
 
     /**
      * This is the entry point method.

@@ -15,7 +15,7 @@ export function mount() {
         if (noCacheJSScriptElement === null) {
             var newScript = document.createElement('script');
             newScript.id = "nocachejs-script";
-            newScript.src = 'todolist/todolist.nocache.js';
+            newScript.src = 'gwt1app/gwt1app.nocache.js';
             document.head.appendChild(newScript);
         }
         console.log("joe boostrapped");
@@ -44,7 +44,7 @@ export function unmount() {
         }
         var mainPanel = document.getElementById('mainPanel');
         mainPanel.innerHTML = "";
-        var iframe = document.getElementById('todolist');
+        var iframe = document.getElementById('gwt1app');
         document.body.removeChild(iframe);
         delete window.__gwt_activeModules;
         delete window.__gwt_getMetaProperty;
