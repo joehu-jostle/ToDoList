@@ -10,8 +10,8 @@ module.exports = {
         'gwt2.app': './gwt2/gwt2wrapper.js'
     },
     output: {
-        path: path.resolve(__dirname, './'),
-        filename: '../[name].js'
+        path: path.resolve(__dirname, '../webapp'),
+        filename: '[name].js'
     },
     module : {
         loaders : [
